@@ -41,7 +41,7 @@ petalinux-build
 
 Making new BOOT.BIN
 ```bash
-petalinux-package --boot --format BIN --fsbl images/linux/zynq_fsbl.elf --u-boot--fpga images/linux/system.bit --dtb images/linux/system.dtb -o BOOT.BIN
+petalinux-package --boot --format BIN --fsbl images/linux/zynq_fsbl.elf --u-boot --fpga images/linux/system.bit --dtb images/linux/system.dtb -o BOOT.BIN --force
 ```
 
 ### Now transfer BOOT.BIN and uImage to BOOT partition on SD-card.
